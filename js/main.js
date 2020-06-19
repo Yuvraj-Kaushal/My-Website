@@ -121,14 +121,14 @@
 
   // circle-progress-3
   $('#branding-progress').circleProgress({
-    value: 0.60,
+    value: 0.30,
     size: 200,
     fill: "#16ffdb",
     thickness: 10,
     emptyFill: "#15154c",
     startAngle: -1.55,
   }).on('circle-animation-progress', function (event, progress) {
-    $(this).find('.progress-percentage').html(Math.round(60 * progress) + '<i>%</i>');
+    $(this).find('.progress-percentage').html(Math.round(30 * progress) + '<i>%</i>');
   });
 
   // circle-progress-4
