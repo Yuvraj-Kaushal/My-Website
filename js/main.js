@@ -36,7 +36,7 @@
   // typed JS
   var typed = new Typed(".type", {
     strings: [
-      "Web Developer",
+      "Web Designer",
       "Graphics Designer"
     ],
     typeSpeed: 70,
